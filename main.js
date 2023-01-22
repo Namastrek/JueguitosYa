@@ -29,7 +29,7 @@ const stockProductos = [
         cantidad: 1,
         desc: "Plataformas, arcade, clásicos.",
         precio: 250,
-        img: "img/crash.jpg"
+        img: "img/Crash.jpg"
     },
     {
         id: 5,
