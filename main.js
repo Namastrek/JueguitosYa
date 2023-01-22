@@ -110,9 +110,12 @@ if (procesarCompra) {
   })
 }
 
-stockProductos.forEach((prod) => {
-  const { id, nombre, precio, desc, img, cantidad } = prod;
-  if (contenedor) {
+fetch("./data.json")
+.then(response => response.json())
+.then(data => {
+  data.forEach(prod => {
+    const { id, nombre, precio, desc, img, cantidad } = prod;
+    if (contenedor) {
     contenedor.innerHTML += `
     <div class="card mt-3" style="width: 18rem;">
     <img class="card-img-top mt-2" src="${img}" alt="Card image cap">
@@ -126,6 +129,7 @@ stockProductos.forEach((prod) => {
   </div>
     `
   }
+  })
 })
 
 const agregarProducto = (id) => {

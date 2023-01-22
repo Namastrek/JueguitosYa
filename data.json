@@ -1,0 +1,64 @@
+[
+{
+    "id": 1,
+    "nombre": "The Las Of Us",
+    "cantidad": 1,
+    "desc": "Mundo abierto, Supervivencia.",
+    "precio": 4000,
+    "img": "img/thelastofus.jpg"
+},{
+    "id": 2,
+    "nombre": "Persona 5",
+    "cantidad": 1,
+    "desc": "Juego de acción por turnos, anime.",
+    "precio": 2000,
+    "img": "img/persona5.jpg"
+},
+{
+    "id": 3,
+    "nombre": "Pacman",
+    "cantidad": 1,
+    "desc": "Plataformas, arcade, clásicos.",
+    "precio": 250,
+    "img": "img/pacman.jpg"
+},
+{
+    "id": 4,
+    "nombre": "crash Bandicoot",
+    "cantidad": 1,
+    "desc": "Plataformas, arcade, clásicos.",
+    "precio": 250,
+    "img": "img/crash.jpg"
+},
+{
+    "id": 5,
+    "nombre": "Control",
+    "cantidad": 1,
+    "desc": "Misterio, poderes, policiales.",
+    "precio": 1000,
+    "img": "./img/control.jpg"
+},
+{
+    "id": 6,
+    "nombre": "Call Of Duty",
+    "cantidad": 1,
+    "desc": "Disparos, multijugador.",
+    "precio": 600,
+    "img": "./img/callduty.jpg"
+},
+{
+    "id": 7,
+    "nombre": "Assassins Creeds Origins",
+    "cantidad": 1,
+    "desc": "Mundo abierto, acción, rpg.",
+    "precio": 2000,
+    "img": "img/asesino.jpeg"
+},
+{
+    "id": 8,
+    "nombre": "Outlast 2",
+    "cantidad": 1,
+    "desc": "Terror, supervivencia, acción.",
+    "precio": 1750,
+    "img": "img/outlast.jpg"
+}]
